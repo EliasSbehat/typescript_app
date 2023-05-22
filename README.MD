@@ -1,12 +1,10 @@
-![ci](https://github.com/lukeautry/ts-app/workflows/ci/badge.svg?branch=master)
-
 # ts-app: Full-stack TypeScript Development Framework
 
-This project is a starting point for developing an API-first application using TypeScript, Node.js, and React.
+React, TypeScript, and Node.js are used in the project to develop an API-first application.
 
-This project aims to support a "domain driven" approach. A client library is automatically generated from the API, providing a statically typed interface with which to interact with the API from the React UI. The goal is to provide a type-safe and productive developer experience for rapid web application development.
+The project aims to support a "domain driven" approach. In order to provide a type-safe and productive developer experience for rapid web application development, a client library is automatically generated from the API. It provides a statically typed interface for interacting with the API from the React UI.
 
-** **Check out the new [SaaS branch](https://github.com/lukeautry/ts-app/tree/saas)!** Includes login flow, password reset, routing, emails and email previews, component library development via Cosmos, and more **
+** **Check out the new Includes login flow, password reset, routing, emails and email previews, component library development via Cosmos, and more **
 
 ## Getting started
 
@@ -46,7 +44,7 @@ This project uses [TypeScript Project References](https://www.typescriptlang.org
 - Backend
     - [Node.js](https://nodejs.org)
     - [Express](https://expressjs.com/)
-    - [tsoa](https://github.com/lukeautry/tsoa)
+
         - Generates Express Routes from TypeScript controllers
         - Generates [OpenAPI ("Swagger")](https://swagger.io/docs/specification/about) specification, enabling automatic documentation and client library generation
     - [PostgreSQL](https://www.postgresql.org/) as RDBMS
@@ -55,7 +53,6 @@ This project uses [TypeScript Project References](https://www.typescriptlang.org
     - [Redis](https://redis.io/) for caching/messaging
 - Frontend
     - [react](https://reactjs.org/)
-    - [openapi-typescript-codegen](https://github.com/ferdikoomen/openapi-typescript-codegen) for API client generation
     - [styled-components](https://styled-components.com/) for styling/css
     - [webpack](https://webpack.js.org) for bundling static assets
 - Developer environment
@@ -64,7 +61,6 @@ This project uses [TypeScript Project References](https://www.typescriptlang.org
     - VSCode [launch.json](./.vscode/launch.json) settings have been included to support debugging
 - Testing
     - [jest](https://jestjs.io) test runner/assertions/utilities
-    - [supertest](https://github.com/visionmedia/supertest) for API endpoint tests
     - [cypress](https://www.cypress.io/) for end-to-end testing
     - [react-testing-library](https://testing-library.com/docs/react-testing-library/intro) for component testing
 
